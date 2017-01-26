@@ -6,19 +6,20 @@
 </head>
 <body>
 	<main>
-		<nav>
+		<header>
 			<h4>Greg's List</h4>
-			<div class="links">
-            <ul>
-				<li>
-					<a href="#">Post</a>
-				</li>
-				<li>
-					<a href="#">Account</a>
-				</li>
-			</ul>
-			</div>
-		</nav>
+			<nav class="top-nav">
+                <a href class="nav-link">Post</a>
+				<a href class="nav-link">Account</a>
+            </nav>
+        </header>
+        <section class="search-section">
+            <form action="#">
+                <label for="search">Search Jobs></label>
+                <input type="text" id="search" placeholder="Developer, Design, Internship..."/>
+                <input type="image" class="search-button magnifying-glass-icon" src="images/magnifying-glass.png" alt="Search" role="button">
+            </form>
+        </section>
 	</main>
 </body>
 </html>
