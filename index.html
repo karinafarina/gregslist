@@ -5,21 +5,46 @@
 	<link rel="stylesheet" type="text/css" href="main.css">"
 </head>
 <body>
-	<main>
-		<header>
-			<h4>Greg's List</h4>
-			<nav class="top-nav">
-                <a href class="nav-link">Post</a>
-				<a href class="nav-link">Account</a>
-            </nav>
-        </header>
-        <section class="search-section">
-            <form action="#">
-                <label for="search">Search Jobs></label>
-                <input type="text" id="search" placeholder="Developer, Design, Internship..."/>
-                <input type="image" class="search-button magnifying-glass-icon" src="images/magnifying-glass.png" alt="Search" role="button">
-            </form>
-        </section>
-	</main>
+	<header>
+		<h4>Greg's List</h4>
+		<nav class="top-nav">
+            <a href class="nav-link">Post</a>
+<a href class="nav-link">Account</a>
+        </nav>
+    </header>
+    
+    <section class="search-section">
+        <form action="#">
+            <label for="search">Search Jobs></label>
+            <input type="text" id="search" placeholder="Developer, Design, Internship..."/>
+            <input type="image" class="search-button magnifying-glass-icon" src="images/magnifying-glass.png" alt="Search" role="button">
+        </form>
+    </section>
+    
+    <nav class="pages">
+        <a class="pages-button">&alt; prev</a>
+        <span class="pages-display">1-100 of 179</span>
+        <a class="pages-button">next &glt;</a>
+    </nav>
+    
+    <main>
+        <ul class="listings">
+            <li class="listing">
+                <span class="listing-date">June 22</span>
+                <a href="#" class="listing-title">Technical Project Manager</a>
+                <span class="listing-location">Midtown East</span>
+            </li>
+            <li class="listing">
+                <span class="listing-date">June 21</span>
+                <a href="#" class="listing-title">Frontend Developer</a>
+                <span class="listing-location">SoHo</span>
+            </li>
+            <li class="listing">
+            <span class="listing-date">June 20</span>
+            <a href="#" class="listing-title">Senior Python Developer / Cofounder</a>
+            <span class="listing-location">Flatiron</span>
+            </li>
+        </ul>
+    </main>
 </body>
 </html>
